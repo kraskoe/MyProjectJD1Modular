@@ -1,0 +1,19 @@
+.error {
+    color: red;
+}
+table{
+    border-spacing: 10px;
+}
+th{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+.blockCities {
+    height: 300px;
+    width: 200px;
+    overflow: scroll;
+}
