@@ -4,8 +4,7 @@
 <head>
     <title>Shop</title>
 </head>
-<jsp:forward page="/frontController?command=login"/>
-<%--<jsp:forward page="/frontController?command=tours"/>--%>
+<jsp:forward page="/frontController?command=tours"/>
 <body>
 </form>
 </body>
