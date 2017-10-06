@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <fmt:setLocale value="${sessionScope.locale}"/>
-<fmt:setBundle basename="resources/messages" var="i18n"/>
+<fmt:setBundle basename="messages" var="i18n"/>
 <c:url var="path" value="/frontController?command=${sessionScope.pageName}"></c:url>
 
 <div class="container text-center">
