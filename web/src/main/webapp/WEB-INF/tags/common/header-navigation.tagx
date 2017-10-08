@@ -4,7 +4,7 @@
           version="2.0">
 
     <fmt:setLocale value="${sessionScope.locale}"/>
-    <fmt:setBundle basename="resources/messages" var="i18n"/>
+    <fmt:setBundle basename="messages" var="i18n"/>
     <c:url var="path" value="/frontController?command=${sessionScope.pageName}"></c:url>
 
     <nav class="navbar navbar-inverse">
